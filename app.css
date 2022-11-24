@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  overflow: hidden;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow-x: ;: hidden;
+  background-image: radial-gradient(#5921ff 1px, transparent 1px), radial-gradient(#5921ff 1px, transparent 1px);
+background-size: 53px 53px;
+background-position: 0 0, 26.5px 26.5px;
+background-color: #1b1b1b;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 91vh;
+}
+
+.header{
+  margin: 10px;
+  padding: 10px;
+  border: .5px solid #fff;
+  background: #1b1b1b;
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+}
+
+.header h1{
+  font-size: 18px;
+  color: #fff;
+}
+
+.header p{
+  font-size: 12px;
+  color: #5921ff;
+}
+
+input{
+  padding: 10px 10px;
+}
+
+button{
+  padding: 10px 10px;
+  margin-top: 10px;
+  border: .5px solid #fff;
+  background: #1b1b1b;
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+color: #5921ff;
+}
+
+.progress {
+   height: 7px;
+   width: 100vw;
+   background: linear-gradient(#5921ff 0 0),
+       linear-gradient(#5921ff 0 0),
+       #1b1b1b;
+   background-size: 60% 100%;
+   background-repeat: no-repeat;
+   animation: progress-7x9cg2 2.4000000000000004s infinite;
+}
+
+@keyframes progress-7x9cg2 {
+   0% {
+      background-position: -150% 0,-150% 0;
+   }
+
+   66% {
+      background-position: 250% 0,-150% 0;
+   }
+
+   100% {
+      background-position: 250% 0, 250% 0;
+   }
+}
